@@ -3,12 +3,13 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-header {
+h1 {
     background-color: #111;
     color: white;
     padding: 20px 50px;
     text-align: center;
 }
+
 /* Navbar styling */
 .navbar {
     display: flex;
