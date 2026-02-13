@@ -7,14 +7,14 @@ h1 {
     background-color: #111;
     color: white;
     padding: 20px 50px;
-    text-align: center;
+    text-align: Top left;
 }
 
 /* Navbar styling */
 .navbar {
     display: flex;
     justify-content: space-between;  /* pushes items left & right */
-    align-items: center;
+    align-items: top right;
     padding: 15px 50px;
     background-color: #111;
 }
