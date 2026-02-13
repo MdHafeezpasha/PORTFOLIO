@@ -1,0 +1,40 @@
+/* Remove default spacing */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;  /* pushes items left & right */
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #111;
+}
+
+/* Logo */
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Remove bullets */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Links styling */
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+    color: #00adb5;
+}
